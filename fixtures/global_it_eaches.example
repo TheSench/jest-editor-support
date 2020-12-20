@@ -1,0 +1,32 @@
+// @flow
+it.each('works with old functions', function() {
+
+});
+
+it.each('works with new functions', () => {
+
+});
+
+it.each('works with flow functions', () => {
+  function foo(x: string): string { return x; }
+});
+
+it.each('works with JSX', ()=> {
+  const foo = () => <div></div>;
+})
+
+it.only.each('works with it.only', () => {
+
+});
+
+fit.each('works with fit', () => {
+
+});
+
+test.each('works with test', () => {
+
+});
+
+test.only.each('works with test.only', () => {
+
+});
